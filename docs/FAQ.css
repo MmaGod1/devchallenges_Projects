@@ -11,6 +11,7 @@ body {
 h1 {
   text-align: center;
   padding-top: 20px;
+  font-size: 3.5em;
 }
 
 section {
@@ -23,6 +24,7 @@ section {
 
 .question {
   color: #0078e7;
+  font-size: 2em;
 }
 
 a {
