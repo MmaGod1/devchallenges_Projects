@@ -1,123 +1,133 @@
-body {
-  background-image: url("./space_theme.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100%;
-  height: 100vh;
-  margin: 0;
+body { 
+    background-image: url('space_theme.png'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    width: 100%; 
+    height: 100vh; 
+    margin: 0;
 }
 
 .main-section {
-  width: 80%;
-  overflow: hidden;
-  text-align: left;
-  margin: 0 auto;
-  padding-top: 5rem;
+    width: 80%;
+    overflow: hidden;
+    text-align: left;
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+}
+
+.left, .right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .left {
-  float: left;
-  width: 48%;
-  color: white;
+    float: left;
+    width: 48%;
+    color: white;
 }
 
 .right {
-  float: right;
-  width: 48%;
-  color: white;
-  position: relative;
+    float: right;
+    width: 48%;
+    color: white;
+    position: relative;
 }
 
-#logo {
-  padding: 10px;
-  border: 5px solid #000033;
-  border-radius: 50px;
-  background-color: #000033;
-  color: white;
-  width: 150px;
-  text-align: center;
+#logo { 
+    padding: 10px; 
+    border: 5px solid #000033; 
+    border-radius: 50px; 
+    background-color: #000033; 
+    color: white; 
+    width: 150px; 
+    text-align: center; 
 }
 
-span {
-  font-weight: bold;
-  background: linear-gradient(to bottom, red 50%, black 55%, red 65%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+span { 
+    font-weight: bold; 
+    background: linear-gradient(to bottom, red 50%, black 55%, red 65%); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
 }
 
-#blog-card {
-  background: linear-gradient(to right, #83298b 0%, #c71585 50%, #d3a1e8 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+#blog-card { 
+    background: linear-gradient(to right, #83298b 0%, #c71585 50%, #d3a1e8 100%); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
 }
 
-#html-css {
-  color: gray;
-  font-weight: bold;
+#html-css { 
+    color: gray; 
+    font-weight: bold; 
 }
 
-.container {
-  background-color: #abdad4;
-  padding: 15px;
-  border-radius: 20px;
-  position: relative;
-  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+.container { 
+    background-color: #abdad4; 
+    padding: 15px; 
+    border-radius: 20px; 
+    position: relative;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
 }
 
-#bold {
-  font-weight: bold;
+#bold { 
+    font-weight: bold; 
 }
 
-.empty-div {
-  background-color: #89c5b4;
-  height: 10px;
-  position: relative;
+.empty-div { 
+    background-color: #89c5b4; 
+    height: 10px; 
+    position: relative; 
 }
 
-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+img { 
+    width: 100%;
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
 }
 
-.white {
-  background-color: white;
-  color: black;
-  margin: 0;
+.white { 
+    background-color: white; 
+    color: black; 
+    margin: 0; 
 }
 
-.text-div {
-  padding: 0;
-  position: relative;
+.text-div { 
+    
+    padding: 0; 
+    position: relative; 
 }
 
-#design {
-  color: #8f00ffcb;
-  border-radius: 50px;
-  background-color: #a400ff2b;
-  font-weight: bold;
-  width: 30%;
-  text-align: center;
-  margin: 0;
+#design { 
+    color: #8f00ffcb; 
+    border-radius: 50px; 
+    background-color: #a400ff2b; 
+    font-weight: bold; 
+    width: 30%; 
+    text-align: center; 
+    margin: 0; 
 }
 
 @media screen and (max-width: 768px) {
-  .main-section {
-    padding-top: 5.5rem;
-  }
+    .main-section {
+        height: auto; /* Remove fixed height */
+        position: static; /* Reset positioning */
+        padding-top: 5.5rem;
+    }
 
-  .left,
-  .right {
-    width: 70%;
-    margin: 0 auto;
-    text-align: left;
-    float: none;
-  }
+    .left, .right {
+        width: 100%;
+        position: static; /* Remove absolute positioning */
+        transform: none; /* Remove vertical centering */
+        float: none; /* Reset float */
+        text-align: left;
+    }
 
-  img {
-    width: 100%;
-  }
+    img {
+        width: 100%;
+    }
 }
