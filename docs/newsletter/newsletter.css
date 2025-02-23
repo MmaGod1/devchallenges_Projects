@@ -1,98 +1,101 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #F9FAFBl;
-    margin: 0;
-    padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #F9FAFBl;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    width: 100%;
-    max-width: 80%;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 80%;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 img {
-    display: block;
-    margin: 100px auto 0 auto;
-    width: 60px;
-    height: auto;
+  display: block;
+  margin: 100px auto 0 auto;
+  width: 60px;
+  height: auto;
 }
 
 h1 {
-    font-size: 48px;
-    font-weight: 600;
-    text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .description {
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-    margin: 0 auto;
-    width: 75%;
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.6;
+  text-align: center;
+  margin: 0 auto;
+  width: 75%;
 }
 
-
 .form-container {
-    width: 100%;
-    max-width: 600px;
-    margin: 50px auto;
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
 }
 
 form {
-    background-color: #FFFFFF;
-    text-align: center;
-    border: 20px solid #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  text-align: center;
+  border: 20px solid #ffffff;
+  border-radius: 10px;
+  box-shadow:
+    0px 20px 30px 0px rgba(0, 0, 0, 0.03),
+    0px 8px 12px 0px rgba(0, 0, 0, 0.08);
 }
 
 input {
-    width: 100%;
-    border-radius: 10px;
-    margin: 10px auto;
-    padding: 1em;
-    text-align: center;
-    display: block;
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 1em;
+  text-align: center;
+  display: block;
 }
 
 #email {
-    background-color: #F9FAFB;
-    border: none;
-    font-size: 16px;
-    font-weight: 500;
-    border: 1px solid #E5E7EB;
+  background-color: #f9fafb;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #e5e7eb;
 }
 
 input:focus {
-    border-color: #E5E7EB;
-    outline: 2px solid #E5E8EB;
+  border-color: #e5e7eb;
+  outline: 2px solid #e5e8eb;
 }
 
 input:hover {
-    border-color: #E5E7EB;
+  border-color: #e5e7eb;
 }
 
 input[type="submit"] {
-    font-size: 16px;
-    font-weight: 600;
-    background-color: #284BCE;
-    color: #FFFFFF;
-    border: none;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #284bce;
+  color: #ffffff;
+  border: none;
 }
 
 #text {
-    font-size: 14px;
-    font-weight: 400;
-    margin: 3em 0 0 0;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin: 3em 0 0 0;
 }
