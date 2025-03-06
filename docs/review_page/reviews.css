@@ -102,6 +102,11 @@ h1 {
 }
 
 @media (max-width: 1024px) {
+      .container {
+        align-items: flex-start; /* Aligns children to the top left */
+        height: 80vh;
+    }
+
     #first {
         align-self: flex-start; 
         margin-top: -250px;
