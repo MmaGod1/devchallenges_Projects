@@ -10,4 +10,4 @@ The following are projects that didn't use flexbox or media queries due to the s
 
 1. [article_listing](article_listing/index.html) - [article.css](article_listing/article.css)  
 2. [review_page](review_page/index.html) - [reviews.css](review_page/reviews.css)
-3. [feature_section](feature_section/index.html) - [feature.css](feature.css)
+3. [feature_section](feature_section/index.html) - [feature.css](feature_section/feature.css)
